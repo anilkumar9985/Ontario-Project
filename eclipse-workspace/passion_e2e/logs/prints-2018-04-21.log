@@ -1,0 +1,7 @@
+02:04:39.595 [main] INFO  org.passion.utilities.Logs - Verifying home page title
+02:04:39.604 [main] INFO  org.passion.utilities.Logs - Verifying title
+02:04:39.848 [main] INFO  org.passion.utilities.Logs - Verifying all fields are present
+02:08:45.406 [main] INFO  org.passion.utilities.Logs - Instantiating the Driver
+02:08:46.106 [main] INFO  org.passion.utilities.Logs - Verifying home page title
+02:08:46.107 [main] INFO  org.passion.utilities.Logs - Verifying title
+02:08:46.336 [main] INFO  org.passion.utilities.Logs - Verifying all fields are present

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+       <Properties>
+<Property name="basePath">./logs</Property>
+</Properties>
+ 
+  <Appenders>
+      <RollingFile name="File" fileName="/Users/anilkumar/eclipse-workspace/passion_e2e/target/PrintsLog.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+     <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <SizeBasedTriggeringPolicy size="500" />
+          </RollingFile>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  <Logger name="e2e_testcases.test_cases" level="Error" additivity="false">
+      <AppenderRef ref="File"/>
+    </Logger>
+  
+    <Root level="Error">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>

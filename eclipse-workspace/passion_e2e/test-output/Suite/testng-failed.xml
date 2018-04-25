@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="e2e_testcases.test_cases">
+        <methods>
+          <include name="binvoke"/>
+          <include name="valid_email"/>
+          <include name="quit"/>
+          <include name="verifyall_fields"/>
+        </methods>
+      </class> <!-- e2e_testcases.test_cases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

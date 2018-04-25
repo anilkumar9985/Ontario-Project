@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13474" started-at="2018-04-25T19:53:10Z" finished-at="2018-04-25T19:53:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13474" started-at="2018-04-25T19:53:10Z" finished-at="2018-04-25T19:53:24Z">
+      <class name="passion_basetest.passion_e2e.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:passion_basetest.passion_e2e.AppTest@6ea12c19]" name="testApp" duration-ms="3" started-at="2018-04-25T15:53:23Z" finished-at="2018-04-25T15:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- passion_basetest.passion_e2e.AppTest -->
+      <class name="e2e_testcases.test_cases">
+        <test-method status="PASS" signature="binvoke()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="binvoke" is-config="true" duration-ms="5338" started-at="2018-04-25T15:53:10Z" finished-at="2018-04-25T15:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- binvoke -->
+        <test-method status="PASS" signature="email_mandatory()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="email_mandatory" duration-ms="2202" started-at="2018-04-25T15:53:15Z" finished-at="2018-04-25T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_mandatory -->
+        <test-method status="PASS" signature="firstname_mandatory()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="firstname_mandatory" duration-ms="1805" started-at="2018-04-25T15:53:18Z" finished-at="2018-04-25T15:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstname_mandatory -->
+        <test-method status="PASS" signature="home_page_title()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="home_page_title" duration-ms="122" started-at="2018-04-25T15:53:19Z" finished-at="2018-04-25T15:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_title -->
+        <test-method status="PASS" signature="lastname_mandatory()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="lastname_mandatory" duration-ms="1609" started-at="2018-04-25T15:53:20Z" finished-at="2018-04-25T15:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastname_mandatory -->
+        <test-method status="PASS" signature="valid_email()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="valid_email" duration-ms="2028" started-at="2018-04-25T15:53:21Z" finished-at="2018-04-25T15:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_email -->
+        <test-method status="PASS" signature="verifyall_fields()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="verifyall_fields" duration-ms="178" started-at="2018-04-25T15:53:23Z" finished-at="2018-04-25T15:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyall_fields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:e2e_testcases.test_cases@7f560810]" name="quit" is-config="true" duration-ms="158" started-at="2018-04-25T15:53:23Z" finished-at="2018-04-25T15:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- e2e_testcases.test_cases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

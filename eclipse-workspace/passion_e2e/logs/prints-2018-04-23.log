@@ -1,0 +1,7 @@
+14:25:52.447 [main] INFO  org.passion.utilities.Logs - Verifying fname field mandatory
+14:25:54.114 [main] INFO  org.passion.utilities.Logs - Verifying home page title
+14:25:54.115 [main] INFO  org.passion.utilities.Logs - Verifying title
+14:25:54.174 [main] INFO  org.passion.utilities.Logs - Verifying lname field mandatory
+14:25:55.761 [main] INFO  org.passion.utilities.Logs - Verifying valid email 
+14:25:57.806 [main] INFO  org.passion.utilities.Logs - Verifying all fields are present
+14:27:23.423 [main] INFO  org.passion.utilities.Logs - Instantiating the Driver
