@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-28T22:29:15Z" name="Default suite" finished-at="2018-07-28T22:30:00Z" duration-ms="45078">
+    <groups>
+    </groups>
+    <test started-at="2018-07-28T22:29:15Z" name="Default test" finished-at="2018-07-28T22:30:00Z" duration-ms="45078">
+      <class name="com.channelassist.tests.testNGTests">
+        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:15Z" name="browserInvoke" finished-at="2018-07-28T18:29:22Z" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method signature="SelectandVerifyProductPage()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:22Z" name="SelectandVerifyProductPage" finished-at="2018-07-28T18:29:25Z" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectandVerifyProductPage -->
+        <test-method signature="SelectandVerifyAccessoriesPage()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:25Z" name="SelectandVerifyAccessoriesPage" finished-at="2018-07-28T18:29:27Z" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectandVerifyAccessoriesPage -->
+        <test-method signature="SelectMagicMouse()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:27Z" name="SelectMagicMouse" finished-at="2018-07-28T18:29:30Z" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMagicMouse -->
+        <test-method signature="Addtocart()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:30Z" name="Addtocart" finished-at="2018-07-28T18:29:30Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method signature="VerifyQuantityandCheckout()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:30Z" name="VerifyQuantityandCheckout" finished-at="2018-07-28T18:29:34Z" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyQuantityandCheckout -->
+        <test-method signature="billingdetailsDataDriven()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:34Z" name="billingdetailsDataDriven" finished-at="2018-07-28T18:29:37Z" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingdetailsDataDriven -->
+        <test-method signature="PurchaseandValidate()[pri:0, instance:com.channelassist.tests.testNGTests@1ba9117e]" started-at="2018-07-28T18:29:37Z" name="PurchaseandValidate" finished-at="2018-07-28T18:30:00Z" duration-ms="23818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseandValidate -->
+      </class> <!-- com.channelassist.tests.testNGTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
