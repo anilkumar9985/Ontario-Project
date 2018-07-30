@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.channelassist.tests.testNGTests">
+        <methods>
+          <include name="VerifyQuantityandCheckout"/>
+          <include name="Purchase"/>
+          <include name="SelectandVerifyProductPage"/>
+          <include name="SelectandVerifyAccessoriesPage"/>
+          <include name="browserInvoke"/>
+          <include name="billingdetailsDataDriven"/>
+          <include name="Addtocart"/>
+          <include name="SelectMagicMouse"/>
+        </methods>
+      </class> <!-- com.channelassist.tests.testNGTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
